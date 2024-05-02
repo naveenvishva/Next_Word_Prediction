@@ -6,7 +6,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, LSTM, Dense
 
 # Read the text file
-with open('sherlock-holm.es_stories_plain-text_advs.txt', 'r') as file:
+with open(r'sherlock-holm.es_stories_plain-text_advs.txt', 'r') as file:
     text = file.read()
     
 tokenizer = Tokenizer()
